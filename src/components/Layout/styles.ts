@@ -10,7 +10,7 @@ export const Container = styled.div<any>`
     backgroundImage ? `url(${backgroundImage})` : "none"};
   background-size: cover;
   background-position: center;
-  min-height: 100vh;
+  min-height: -webkit-fill-available;
   color: ${({ color }) => color || "#000000"};
   font-family: ${({ font }) => font || "Arial, sans-serif"};
 
