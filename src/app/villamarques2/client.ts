@@ -6,7 +6,7 @@ export const villamarques = {
   color: "#ffffff",
   backgroundColor: "#1B341E",
   backgroundImage:
-    "https://res.cloudinary.com/dmwgzmzr9/image/upload/v1725080379/bylink/villa-marques-background-v2_uext2p.png",
+    "https://res.cloudinary.com/dmwgzmzr9/image/upload/v1725080684/bylink/villa-marques-background-v2_zq9hjp.png",
   buttonBackgroundColor: "#D4AF37",
   buttonColor: "#1B341E",
   links: [
