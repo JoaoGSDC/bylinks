@@ -5,8 +5,7 @@ export const villamarques = {
   logo: "https://ccmpedidoonline.com.br/cdn/logovilamarquescasadelanches.png",
   color: "#ffffff",
   backgroundColor: "#1B341E",
-  backgroundImage:
-    "https://res.cloudinary.com/dmwgzmzr9/image/upload/v1725078655/bylink/villa-marques-background_qdlfah.png",
+  backgroundImage: "https://ibb.co/HxXjzR6",
   buttonBackgroundColor: "#D4AF37",
   buttonColor: "#1B341E",
   links: [
@@ -17,10 +16,14 @@ export const villamarques = {
     },
     {
       id: 2,
-      title: "Instagram",
-      url: "https://www.instagram.com/villamarquess/",
+      title: "WhatsApp",
+      url: "https://api.whatsapp.com/send?phone=5519997980515&text=Ol%C3%A1!%20Gostaria%20de%20fazer%20meu%20pedido!",
     },
-    { id: 3, title: "Facebook", url: "https://www.facebook.com/villamarquess" },
+    {
+      id: 3,
+      title: "Conheça nossa pizzaria",
+      url: "https://app.gplustogo.com.br/franspepperpizzaria",
+    },
     {
       id: 4,
       title: "Localização",
