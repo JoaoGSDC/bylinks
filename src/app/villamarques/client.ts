@@ -4,8 +4,8 @@ export const villamarques = {
   font: `'Montserrat', sans-serif`,
   logo: "https://ccmpedidoonline.com.br/cdn/logovilamarquescasadelanches.png",
   color: "#ffffff",
-  backgroundColor: "#1B341E",
-  backgroundImage: "https://ibb.co/HxXjzR6",
+  backgroundColor: "#640000",
+  backgroundImage: "https://i.postimg.cc/50HQ6b5R/Villa-Marques-BACKGROUND.png",
   buttonBackgroundColor: "#D4AF37",
   buttonColor: "#1B341E",
   links: [
