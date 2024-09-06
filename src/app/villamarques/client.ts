@@ -1,5 +1,5 @@
 export const villamarques = {
-  name: "Villa Marques",
+  name: "Villa Marquês",
   pathname: "villamarques",
   font: `'Montserrat', sans-serif`,
   logo: "https://ccmpedidoonline.com.br/cdn/logovilamarquescasadelanches.png",
