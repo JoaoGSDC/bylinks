@@ -21,11 +21,6 @@ export const villamarques = {
     },
     {
       id: 3,
-      title: "Conheça nossa pizzaria",
-      url: "https://app.gplustogo.com.br/franspepperpizzaria",
-    },
-    {
-      id: 4,
       title: "Localização",
       url: "https://maps.app.goo.gl/EjpnBCwcfXU1SLUs6",
     },
