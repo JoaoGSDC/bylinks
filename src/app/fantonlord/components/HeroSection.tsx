@@ -80,7 +80,7 @@ export function HeroSection({ data }: HeroSectionProps) {
           initial={{ y: 20, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
           transition={{ duration: 0.6, delay: 0.7, ease: "easeOut" }}
-          className="text-xs md:text-sm text-[#d4af37] tracking-[0.3em] uppercase font-light"
+          className="max-w-[320px] px-2 text-center text-[11px] md:text-sm text-[#d4af37] tracking-[0.18em] uppercase font-light"
           style={{
             textShadow: "0 2px 15px rgba(212, 175, 55, 0.3)",
           }}
@@ -91,7 +91,7 @@ export function HeroSection({ data }: HeroSectionProps) {
           Canal oficial na Twitch
         </p>
       </motion.div>
-      <div className="absolute left-1/2 bottom-5 z-20 w-full -translate-x-1/2 px-4">
+      <div className="absolute left-1/2 bottom-8 z-20 w-full -translate-x-1/2 px-4">
         <div className="mx-auto w-fit px-3 py-1.5">
           <SocialLinks socialLinks={data.socialLinks} className="py-0" />
         </div>

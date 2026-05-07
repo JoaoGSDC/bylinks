@@ -73,7 +73,7 @@ function SocialButton({ link }: { link: SocialLink }) {
         transition: { duration: 0.2 }
       }}
       whileTap={{ scale: 0.95 }}
-      className="group relative w-11 h-11 rounded-full flex items-center justify-center transition-all duration-300"
+      className="group relative h-12 w-12 rounded-full flex items-center justify-center transition-all duration-300"
       style={{
         background: "rgba(212, 175, 55, 0.15)",
         border: "1px solid rgba(212, 175, 55, 0.3)",
@@ -91,7 +91,7 @@ function SocialButton({ link }: { link: SocialLink }) {
 
       {/* Icon */}
       <Icon
-        className="relative z-10 w-[18px] h-[18px] text-[#d4af37] group-hover:text-white transition-colors duration-300"
+        className="relative z-10 h-5 w-5 text-[#d4af37] group-hover:text-white transition-colors duration-300"
       />
     </motion.a>
   );
@@ -103,7 +103,7 @@ export function SocialLinks({ socialLinks, className }: SocialLinksProps) {
       variants={containerVariants}
       initial="hidden"
       animate="visible"
-      className={`flex items-center justify-center gap-3 py-5 ${className ?? ""}`}
+      className={`flex items-center justify-center gap-3.5 py-5 ${className ?? ""}`}
     >
       {socialLinks.map((link) => (
         <SocialButton key={link.id} link={link} />

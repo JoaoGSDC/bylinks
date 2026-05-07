@@ -57,7 +57,7 @@ export interface FantonLordData {
 
 export const fantonLordData: FantonLordData = {
   name: "FANTON LORD",
-  subtitle: "REINO DOS NOBRES • LIVE NA TWITCH",
+  subtitle: "FAZENDO HISTORIA NOS GAMES",
   heroImage: wallpaper1,
   logoSymbol: "✦",
   socialLinks: [
